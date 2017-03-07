@@ -1,0 +1,45 @@
+\documentclass[a4paper,10pt]{report}
+%%% Document history
+% YYYY-MM-DD -- auteur : descr modification
+% 2008-12-30 -- ViooLooute : transcription du code du 120 en LaTeX.
+% 2008-12-30 -- ViooLooute : ajout table des matière
+%
+%%%
+
+% \input{code-pkg.tex}
+\usepackage[french]{babel} % hyphenation
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+\usepackage{tabularx}
+\usepackage{enumerate}
+\usepackage{graphicx}
+
+\setcounter{secnumdepth}{0} % suppress numbering starting a the section level
+% \def\thesection{Article \Roman{section}} 
+
+
+% % commande \article incrémente et affiche le compteur artCount.
+% \newcounter{artCount} 
+% \newcommand{\article}{
+% \addtocounter{artCount}{1}
+% \Roman{artCount}}
+% } 
+
+
+\begin{document}
+
+
+\title{\textbf{Code de la faluche}}
+\date{(D'après) \og code du 120\fg, Juillet 2008}
+\author{Version de travail}
+
+\maketitle
+
+
+\input{code-core.tex}
+
+\tableofcontents
+
+\end{document}

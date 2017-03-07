@@ -1,0 +1,7 @@
+Code faluchard, mis en forme avec LaTeX.
+
+code.tex : fichier de base, à compiler avec pdflatex ou rubber.
+code-core.tex : code de la faluche, inclus dans code.tex, il est 
+inclus lors de la compilation de code.tex.
+
+
